@@ -7,7 +7,8 @@ This project is a simple replica of the front page of Amazon, built entirely wit
 **Features**
 Faithful reproduction of Amazon's front page design.
 Clean and organized HTML structure.
-CSS styling for a visually appealing user interface.**
+CSS styling for a visually appealing user interface.
+
 **Usage**
 Feel free to explore the code to understand how the Amazon front page is structured and styled using HTML and CSS. You can also use this project as a starting point for experimenting with your own designs or as a learning resource for web development.
 
