@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image:url(images/amazon_logo.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    color-scheme: white;
+    cursor: pointer;
+}
+
+.border{
+    border: 2.5px solid transparent;
+}
+
+.border:hover{
+    border: 2.5px solid white;
+}
+
+.nav-address{
+    cursor: pointer;
+}
+
+
+
+.add-first{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+
+.add-sec{
+font-size: 1rem;
+margin-left: 3px;
+}
+
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-search{display: flex;
+    background-color: brown;
+    width: 820px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(255, 170, 0, 0.692);
+    border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #0f1111;
+
+
+}
+
+.nav-signin{
+    cursor: pointer;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-return{
+    cursor: pointer;
+}
+
+
+.nav-cart i{
+    font-size: 30px;
+
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.panel-all{
+    cursor: pointer;
+}
+
+.panel-options p{
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+.hero-section{
+    background-image: url(images/kitchen.jpg);
+    background-size: cover;
+    height: 400px;
+    cursor: pointer;
+    
+}
+
+.content-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+   max-height: 100%;
+   background-color: #E3E6E6;
+
+
+}
+
+
+
+
+
+
+.box{
+    width: 23%;
+    height: 450px;
+    background-color: white;
+    margin-bottom: 20px;
+    max-height: 100%;
+    display: flex;
+    cursor: pointer;
+
+    
+}
+
+.box-content{
+    padding: 20px;
+    width: 100%;
+
+        
+    
+
+}
+
+
+.first-box{
+   
+    height: 140px;
+    max-width:100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    
+
+    
+}
+
+
+ .game{
+   
+   height: 100%px;
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  overflow: hidden;
+  margin-right: 20px;
+  
+  margin-left: -15px;
+  margin-top: -15px;
+
+}
+
+.game img {
+    max-width: 100%; /* Prevent image stretching */
+    max-height: 100%; /* Prevent image from overflowing vertically */
+    height: 100%;
+    width: auto; /* Allow image to scale proportionally */
+}
+
+.game a {
+    margin-top: auto;
+    width: 100%; /* Ensure paragraph fits within container */
+    text-align:left; /* Center-align paragraph text */
+    white-space: nowrap; /* Prevent paragraph from wrapping */
+    overflow: hidden; /* Hide any overflow text */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+   
+    
+}
+
+
+
+
+
+.seemore{
+    text-decoration: none;
+    color:#559cae;
+}
+
+.seemore:hover{
+    color: #CE6539;
+    text-decoration: underline;
+}
+
+
+.second-box{
+    cursor: pointer;
+    
+}
+
+.pc{
+    margin-top: 40px;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.pc img{
+   
+    height: 100%;
+    width: 100%;
+    
+}
+
+.shopnow{
+    margin-top: 48px;
+    color:#559cae;
+    text-decoration: none;
+}
+
+.shopnow:hover{
+    color: #CE6539;
+
+}
+
+.box2{
+    width: 97%;
+    height: 275px;
+    background-color: white;
+    margin-bottom: 20px;
+    max-height: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+.image-container img{
+    /* margin-right: 25px; */
+    margin-left: 26px;
+    
+}
+
+.box3{
+    width: 97%;
+    height: 350px;
+    background-color: white;
+    margin-bottom: 20px;
+    max-height: 100%;
+    display: flex;
+
+}
+
+.box3-heading{
+    display: flex;
+    
+}
+
+.box3-heading p{
+    margin-left: 15px;
+    margin-top: 5px;
+
+}
+
+.image-container2{
+     margin-top: 15px;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.pc-2{
+    margin-top: 20px;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.pc-2 img{
+   
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.footer-panel1{
+    font-size: 0.85rem;
+    display: flex;
+    background-color: #222f3d;
+    width: 100%;
+    height: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-panel1 p{
+    cursor: pointer;
+}
+
+
+.footer-panel2{
+    width: 100%;
+    height: 450px;
+    color: white;
+    background-color:#0f1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+
+ul a{
+    display: block;
+    color:#E3E6E6;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+
+
+
+.footer-panel3{
+    padding: 20px;
+    border-top:1px solid #E3E6E6 ;
+    border-bottom:1px solid #E3E6E6 ;
+    display: flex;
+    background-color:#0f1111;
+    
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+.footer-panel4{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    line-height: 20px;
+
+    
+   
+}
+
+
+.line-1{
+    padding-top: 20px;
+    text-align: center;
+   font-size: 0.8rem;
+}
+
+.line-1 a{
+
+    margin-right: 7px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.line-1 a:hover{
+    text-decoration: underline;
+}
+
+.line-2{
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+
+
+
